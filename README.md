@@ -5,7 +5,7 @@ This project is pre-configured with:
   - built-in sample routes
   - Handlebars templating engine with some sample views
   - .env.template file to hold environment variables that will be injected
-  - Nodemon for hot-reload
+  - Nodemon for live reload
   - request logging
 
 # Setup

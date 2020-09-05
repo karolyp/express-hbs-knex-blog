@@ -6,3 +6,7 @@ body {
 a {
   color: #00B7FF;
 }
+
+.card:not(:last-child) {
+  margin-bottom: 3rem;
+}

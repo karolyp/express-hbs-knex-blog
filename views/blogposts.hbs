@@ -1,8 +1,13 @@
 <!-- Végigiterálunk a blogposts objecten, és megjelenítjük a fieldjeit -->
+<div class="mb-3">
+    <a type="button" class="btn btn-success" href="/blogposts/new">Új blogposzt</a>
+</div>
+
 {{#each blogposts}}
 <div class="card">
-    <div class="card-header">
-        Kategória: {{ name }}
+    <div class="card-header d-flex justify-content-between">
+        <span>Kategória: {{ name }}</span>
+        <span>Szerző: {{ full_name }}</span>
     </div>
     <div class="card-body">
         <h5 class="card-title">{{ title }}</h5>
